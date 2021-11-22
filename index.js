@@ -1,0 +1,1 @@
+ClassicEditor.create(document.querySelector(".editor"),{licenseKey:""}).then(e=>{window.editor=e}).catch(e=>{console.error("Oops, something went wrong!"),console.error("Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:"),console.warn("Build id: 19on16u10kda-92u4vjua0g2f"),console.error(e)});
